@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>USB Interface</title>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>USB Interface</h1>
+  <button id="listDevices">Listar Dispositivos</button>
+  <ul id="deviceList"></ul>
+
+  <h2>Enviar Dados</h2>
+  <form id="sendDataForm">
+    <label for="deviceSelect">Dispositivo:</label>
+    <select id="deviceSelect"></select>
+    <br />
+    <label for="dataToSend">Dados:</label>
+    <input type="text" id="dataToSend" />
+    <br />
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
